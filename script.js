@@ -56,7 +56,7 @@ document.getElementById('project-1').addEventListener('click', () => {
     'https://www.youtube.com/watch?v=5u6JjHNL2U4&ab_channel=AndrewPorcelli';
 });
 document.getElementById('project-2').addEventListener('click', () => {
-  location.href = '';
+  location.href = 'https://chikara.fitness/';
 });
 document.getElementById('email-icon').addEventListener('click', () => {
   let link = 'andrewjporcelli@gmail.com';
@@ -69,11 +69,11 @@ document.getElementById('website-icon').addEventListener('click', () => {
 
 document.getElementById('address-icon').addEventListener('click', () => {
   let link =
-    'https://www.google.com/maps/place/Provo,+UT/@40.2572423,-111.9260001,11z/data=!3m1!4b1!4m5!3m4!1s0x874d9271930bf1bf:0x1d90f12600b556ef!8m2!3d40.2338438!4d-111.6585337';
+    'https://www.google.com/maps/place/Saratoga+Springs,+NY/@43.0616205,-73.8419577,12z/data=!3m1!4b1!4m5!3m4!1s0x89de384ec75bd439:0x641d456a1b94a2a8!8m2!3d43.0831301!4d-73.7845651';
   location.href = link;
 });
 document.getElementById('insta').addEventListener('click', () => {
-  let link = '';
+  let link = 'https://www.instagram.com/andrew_porcelli/?hl=en';
   location.href = link;
 });
 document.getElementById('git-hub').addEventListener('click', () => {
@@ -81,11 +81,11 @@ document.getElementById('git-hub').addEventListener('click', () => {
   location.href = link;
 });
 document.getElementById('discord').addEventListener('click', () => {
-  let link = 'https://discordapp.com/users/';
+  let link = 'https://discordapp.com/users/3732/';
   location.href = link;
 });
 document.getElementById('facebook').addEventListener('click', () => {
-  let link = 'https://www.facebook.com/';
+  let link = 'https://www.facebook.com/andrew.porcelli.52/';
   location.href = link;
 });
 document.getElementById('venmo').addEventListener('click', () => {
